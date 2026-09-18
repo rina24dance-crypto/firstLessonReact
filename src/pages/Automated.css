@@ -1,0 +1,110 @@
+.tasks {
+    font-size: 42px;
+    font-weight: 400;
+    font-family: Fraunces;
+    line-height: 50.4px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+    margin-bottom: 20px;
+    margin-top: 120px;
+
+}
+
+
+
+.newText {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Inter;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+    max-width: 650px
+}
+
+
+
+.AllBlock2 {
+    display: block;
+    max-width: 1130px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    /* border: 10px solid red; */
+}
+
+
+
+.newText2 {
+    max-width: 234px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-top: 12px;
+}
+
+
+
+.downSide {
+    display: flex;
+    gap: 32px;
+    margin-top: 68px;
+   
+}
+
+
+
+ .downSide > div {
+    flex: 1;
+} 
+
+
+  .downSide > div > img {    /*  Не понимаю такое расположение .downSide > div > img.      Img это ребенок div, а div ребенок downSide */
+    width: 55px;
+    height: 55px;
+    object-fit: contain;       
+    display: block;
+    margin-bottom: 12px;
+} 
+
+
+.learn {
+    font-weight: 400;
+    font-family: Fraunces;
+    font-size: 25px;
+    line-height: 31.25px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+    margin: 0 0 12px 0;
+
+}
+
+
+.inform {
+    font-weight: 400;
+    font-family: Fraunces;
+    font-size: 25px;
+    line-height: 31.25px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+    margin: 0 0 12px 0;
+    
+}
+
+
+
+.automate {
+    font-weight: 400;
+    font-family: Fraunces;
+    font-size: 25px;
+    line-height: 31.25px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+    margin: 0 0 12px 0;
+    
+}
+
+
+
+
+

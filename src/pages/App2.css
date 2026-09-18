@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #1f1f1f;
+}
+
+
+/* HEADER */
+
+.header2 {
+  max-width: 1100px;
+  /* означает что я поставил ширину header 1100px не больше */
+  margin: 0 auto;
+  /* Вот это как раз центрирует .header (контейнер) по горизонтали, а если поставить margin-left: auto и margin-right: auto то будет лево право соответственно: */
+  /* border: 2px solid red;  */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*   justify-content: center; центрирует элементы внутри него, тоесть logo, nav и buttons, но он работает когда убираешь margin-left: 0 auto снизу*/
+
+  padding: 25px 20px;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+
+.logo-icon {
+  color: #0077b6;
+}
+
+
+.nav {
+  display: flex;
+  gap: 25px;
+
+  margin-left: 40px;
+}
+
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+
+.header-buttons {
+  margin-left: auto;
+  /*  «Возьми всё свободное место слева от меня и тем самым вытолкни меня вправо». */
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.sign-in {
+  border: none;
+  background: none;
+
+  color: #0077b6;
+  cursor: pointer;
+}
+
+
+.book-button {
+  border: none;
+  background-color: #0077b6;
+  color: white;
+
+  padding: 12px 22px;
+
+  cursor: pointer;
+}
+
+
+/* HERO */
+
+.hero {
+  max-width: 1100px;   
+  /* border: 2px solid red;     */
+   margin: 70px auto 0;         /* top: 70px, bottom: 0px, а auto слева и справа говорит браузеру: раздели свободное место поровну между левым и правым отступом. */
+
+  padding: 0 20px;       /*  padding top: 0, padding bottom: 0, padding left and right: 20. Тут текст и картинка не прижимаются вплотную к краям hero */
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.hero-content {
+  width: 50%;
+}
+
+
+.hero-content h1 {
+  font-family: Georgia, serif;
+
+  font-size: 55px;
+  font-weight: 400;
+
+  line-height: 1.1;
+ 
+  margin: 0 0 25px;          /*  Везде 0 кроме margin-bottom: 25px */
+}
+
+
+.hero-content p {
+  font-size: 18px;
+
+  font-weight: 400;
+
+  line-height: 30px;
+
+  color: #555;
+
+  margin-bottom: 30px;
+
+  font-family: Inter;
+}
+
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.book-button{
+  font-weight: 400;
+  font-size: 16px;
+}
+
+
+.learn-button {
+  border: none;
+  background: none;
+
+  color: #0077b6;
+
+  cursor: pointer;
+
+  font-size: 15px;
+
+  font-weight: 400;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 5px
+}
+
+
+/* IMAGE */
+
+.hero-image {
+   width: 45%;       /*  контейнер с картинкой занимает 45% ширины .hero. */
+}
+
+
+ .hero-image img {
+  width: 100%;             /*  сама картинка занимает 100% ширины своего контейнера .hero-image. */
+  display: block;
+} 

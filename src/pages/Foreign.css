@@ -1,0 +1,93 @@
+.allColors {
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    gap: 32px;
+    margin-bottom: 200px;
+}
+
+
+
+.Yellow {
+    background-color: #FAEA73;
+    width: 355px;
+    height: 250px;
+    padding-left: 32px;
+    padding-top: 25px;
+
+}
+
+
+.Blue {
+    background-color: #CCEFF6;
+    width: 355px;
+    height: 250px;
+    padding-left: 32px;
+    padding-top: 25px;
+}
+
+
+.Pink {
+    background-color: #F7CEDC;
+    width: 355px;
+    height: 250px;
+    padding-left: 32px;
+    padding-top: 25px
+}
+
+
+
+
+.textOne {
+    font-size: 25px;
+    margin-top: 12px;
+    letter-spacing: 0.2px;
+    margin-bottom: 11px;
+    font-family: Fraunces;
+}
+
+
+
+.textTwo {
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    font-family: Inter;
+}
+
+
+
+.textThree {
+    font-size: 25px;
+    margin-top: 0px;
+    letter-spacing: 0.2px;
+    margin-bottom: 11px;
+    font-family: Fraunces;
+}
+
+
+
+.textFour {
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    font-family: Inter;
+}
+
+
+.textFive {
+    font-size: 25px;
+    letter-spacing: 0.2px;
+    margin-bottom: 11px;
+    font-family: Fraunces;
+   
+}
+
+
+
+.textSix {
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    font-family: Inter;
+}

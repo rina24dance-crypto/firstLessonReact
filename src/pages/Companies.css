@@ -1,0 +1,26 @@
+
+
+.Companies {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.trust {
+    font-weight: 400;
+    color: #1F1F1F;
+    font-size: 24px;
+    font-family: inter;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.Pictures {
+    display: flex;
+    gap: 55px;
+    margin-bottom: 160px;
+}
+

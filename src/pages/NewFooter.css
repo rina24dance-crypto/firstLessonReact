@@ -1,0 +1,217 @@
+.newWhirl {
+    width: 432px;
+    height: 216px;
+
+}
+
+
+.finalUpperBlock {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1130px;
+    height: 216px;
+    margin: 0 auto;
+    margin-bottom: 101px;
+}
+
+
+.icon {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+
+.allIcon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+
+
+.built {
+    font-size: 14px;
+    line-height: 19.6px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: #0070A0;
+}
+
+
+.powered {
+    font-size: 14px;
+    line-height: 19.6px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+}
+
+
+
+ul {
+    list-style: none;
+    color: #626A72;
+    font-size: 14px;
+    font-family: Inter;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    /*   Браузер по умолчанию применяет к <ul> примерно такие стили:   margin-top: 1em;  margin-bottom: 1em;  padding-left: 40px; Поэтому нужны margin: 0 и padding: 0 */
+    padding: 0;
+
+}
+
+
+
+.info {
+    color: #1F1F1F;
+    margin-bottom: 16px;
+    font-size: 15px;
+    font-family: Inter;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+
+}
+
+
+.allInfo {
+    padding-bottom: 30px;
+    width: 230px;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+
+
+.admin {
+    color: #1F1F1F;
+    margin-bottom: 16px;
+    font-size: 15px;
+    font-family: Inter;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    width: 230px;
+
+}
+
+
+
+
+.block4 {
+    width: 230px;
+}
+
+
+.newsletter {
+    color: #1F1F1F;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-family: Inter;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+
+}
+
+
+
+.signUp {
+    color: #1F1F1F;
+    margin-bottom: 33px;
+    font-size: 16px;
+    font-family: Inter;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    max-width: 200px;
+    max-height: 72px;
+}
+
+
+
+.fullEmail {
+    display: flex;
+    align-items: center;
+    width: 216px;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-bottom: 1px solid #C2CDD8;
+    padding-bottom: 7px;
+    
+}
+
+
+
+.newEmail {
+    color: #626A72;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-family: Inter;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+   
+
+
+}
+
+
+.shortline {
+    margin-bottom: -8px;
+}
+
+
+
+.finalDownBlock {
+    display: flex;
+    max-width: 1130px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 47px;
+
+}
+
+
+
+.socialMedia {
+    display: flex;
+    gap: 20px
+}
+
+
+
+.streamline {
+    color: #1F1F1F;
+    font-size: 13px;
+    font-family: Inter;
+    line-height: 19.6px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+
+}
+
+
+.streamline a {
+    color: #0070A0;
+    font-size: 13px;
+    font-family: Inter;
+    line-height: 19.6px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+}

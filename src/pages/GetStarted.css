@@ -1,0 +1,79 @@
+.get {
+    font-family: Fraunces;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 50.4px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+    margin-bottom: 18px;
+
+}
+
+
+
+.allBlock5 {
+    max-width: 1130px;
+    margin: 0 auto;
+    background-color: #E6F7FF;
+    margin-top: 170px;
+    margin-bottom: 80px;
+    padding: 64px 563px 48px 64px;
+}
+
+
+
+.anotherText2 {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+    margin-bottom: 33px;
+}
+
+
+
+.newDemo {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-bottom: 33px;
+    background-color: #0070A0;
+    border: none;
+    padding: 8px 32px;
+}
+
+
+
+.marks {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    color: #626A72
+}
+
+
+
+.marks2 {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    color: #626A72
+}
+
+
+
+.allMarks {
+    display: flex;
+    gap: 32px
+}

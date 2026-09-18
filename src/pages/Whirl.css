@@ -1,0 +1,104 @@
+.anotherAllBlock2 {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+
+ 
+ .mainSide {
+    display: flex;
+    gap: 40px
+} 
+
+
+
+.About {
+    font-size: 42px;
+    font-family: Fraunces;
+    width: 300px;
+}
+
+
+.place {
+    color: #1F1F1F;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: Fraunces;
+    margin-bottom: 10px;
+}
+
+
+.Place {
+    max-height: 218px;
+    max-width: 223px;
+    margin-left: 50px;
+    padding-top: 62px;
+}
+
+
+.text2 {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+
+
+.alerts {
+    color: #1F1F1F;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: Fraunces;
+    margin-bottom: 10px;
+}
+
+
+
+.Alerts {
+    max-height: 218px;
+    max-width: 222px;
+    margin-left: 0px;
+    padding-top: 5px;
+}
+
+
+.text2 {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+
+
+.secure {
+    color: #1F1F1F;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: Fraunces;
+    margin-bottom: 10px;
+}
+
+
+.text2 {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+
+
+.Secure {
+    max-height: 218px;
+    max-width: 222px;
+    margin-left: 0px;
+    padding-top: 5px;
+}
+
