@@ -1,0 +1,58 @@
+.header {
+    background-color: #4CAF50;
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: blue;
+    
+
+}
+
+
+.nav:hover {
+    text-decoration: underline;
+}
+
+
+
+.nav-item {
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 24px;
+
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+
+.card {
+    color: red;
+    background-color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+
+}
+
+
+.item {
+    color: blue;
+}
+
+
+
+.extra-class {
+    border-radius: 56px;
+    background-color: yellowgreen;
+}

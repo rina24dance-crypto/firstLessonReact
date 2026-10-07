@@ -1,0 +1,201 @@
+.Block3 {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+
+
+    .clients {
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: 0%;
+        color: #4D4D4D;
+        margin-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+
+
+        .fortune {
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0%;
+            color: #717171;
+            margin-bottom: 50px;
+        }
+
+
+    }
+
+
+    .logos {
+        display: flex;
+        gap: 120px;
+        margin-bottom: 75px;
+    }
+
+
+
+
+    .system {
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: 0%;
+        color: #4D4D4D;
+        // margin-bottom: 15px;
+        width: 542px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+
+
+        .suitable {
+            font-family: Inter;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0%;
+            color: #717171;
+            margin-bottom: 41px;
+        }
+
+
+
+
+
+    }
+
+
+
+
+    .threeSteps {
+
+        display: flex;
+        gap: 127px;
+
+
+        .firstStep {
+
+           width: 267px;
+
+
+            .member {
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 36px;
+                letter-spacing: 0%;
+                font-family: Inter;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                color: #4D4D4D;
+            }
+
+
+
+            .memberText {
+
+                width: 250px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0%;
+                font-family: Inter;
+                color: #717171;
+
+            }
+
+
+        }
+
+
+
+        .secondStep {
+
+           width: 267px;
+
+
+            .national {
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 36px;
+                letter-spacing: 0%;
+                font-family: Inter;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                color: #4D4D4D;
+            }
+
+
+            .nationalText {
+                width: 250px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0%;
+                font-family: Inter;
+                color: #717171;
+            }
+
+        }
+
+        .thirdStep {
+
+            width: 231px;
+
+            .clubs {
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 36px;
+                letter-spacing: 0%;
+                font-family: Inter;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                color: #4D4D4D;
+            }
+
+
+            .clubsText {
+                width: 250px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0%;
+                font-family: Inter;
+                color: #717171;
+            }
+
+
+        }
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

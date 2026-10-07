@@ -1,0 +1,87 @@
+.header {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px 80px;
+  gap: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  .logo {
+    font-size: 28px;
+    font-weight: 600;
+    display: flex;
+    gap: 8px;
+  }
+
+
+  .logo img {
+    //  Почему тут нет второй точки? Потому что img у меня это HTML-тег, а не класс. Поэтому перед ним точка не нужна.
+    width: 35px;
+    height: 30px
+  }
+
+  // Чтобы .logo .img заработал, JSX должен был бы выглядеть так:
+  //   <div className={styles.logo}>
+  //     <img className={styles.img} src={newLogo} alt="greenLogo" />
+  // </div>
+
+
+
+  // Тогда можно было бы написать:
+
+  // .logo {
+  //     .img {
+  //         width: 100px;
+  //         height: 100px;
+  //     }
+  // }
+
+
+  .nav {
+    display: flex;
+    gap: 50px;
+
+
+    a {
+      color: #18191f;
+      text-decoration: none;
+      font-size: 16px;
+      font-family: Inter;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0%;
+      font-weight: 400;
+
+      &:hover {
+        color: #4caf4f;
+      }
+    }
+  }
+
+  .auth {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    // margin-left: 40px;
+
+    .login {
+      border: none;
+      //background: none;
+      color: #4caf4f;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .signUp {
+      border: none;
+      background-color: #4caf4f;
+      color: #FFF;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+  }
+}

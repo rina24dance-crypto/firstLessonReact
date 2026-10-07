@@ -1,0 +1,382 @@
+.Block4 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 100px;
+    //margin-bottom: 100px;
+
+
+
+
+
+    .unseen {
+        font-size: 36px;
+        font-weight: 600;
+        font-family: Inter;
+        line-height: 44px;
+        letter-spacing: 0%;
+        color: #4D4D4D;
+        width: 582px;
+        margin-bottom: 16px;
+    }
+
+
+
+    .unseenText {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: Inter;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color: #717171;
+        width: 601px;
+        margin-bottom: 32px;
+    }
+
+
+
+    .learn {
+        padding: 14px 32px;
+        background-color: #4CAF4F;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: Inter;
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: #FFFFFF;
+        border-radius: 4px;
+        border: none;
+    }
+
+
+
+    .rightSide {
+        width: 661px
+    }
+
+
+
+
+}
+
+
+
+.Block4Part2 {
+    display: flex;
+    align-items: center;
+    //width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 50px 100px;
+    gap: 70px;
+    margin-bottom: 100px;
+
+}
+
+
+
+.allFour {
+    display: flex;
+    gap: 60px
+}
+
+
+.one {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+.two {
+    display: flex;
+    align-items: center;
+}
+
+
+.three {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+
+.four {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.reinvent {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0%;
+    color: #4D4D4D;
+    width: 380px;
+    margin-bottom: 10px;
+    font-family: Inter;
+}
+
+
+.reinvent span {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0%;
+    color: #4CAF4F;
+    font-family: Inter;
+
+
+}
+
+
+
+.allReinvent {
+    width: 485px
+}
+
+
+.justText {
+    color: #18191F;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    font-family: Inter;
+
+}
+
+
+.number {
+    color: #4D4D4D;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    font-family: Inter;
+    margin-bottom: 2px;
+    margin-left: 12px;
+
+
+}
+
+
+.noun {
+    color: #4D4D4D;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    font-family: Inter;
+    margin-left: 12px;
+
+
+}
+
+
+
+.Block4Part3 {
+    //width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 80px;
+
+
+
+    .design {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: 0%;
+        color: #4D4D4D;
+        width: 570px;
+        margin-bottom: 16px;
+    }
+
+
+
+    .designText {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color: #717171;
+        width: 530px;
+        margin-bottom: 32px;
+    }
+
+
+
+    .greenButton {
+        padding: 14px 32px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: #FFFFFF;
+        background-color: #4CAF4F;
+        border: none;
+        border-radius: 4px;
+        font-family: Inter;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+.Block4Part4 {
+
+
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 78px;
+
+
+
+    .bigRightSide {
+        width: 748px;
+    }
+
+
+
+    .blackText {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: #717171;
+        font-family: Inter;
+
+
+    }
+
+
+
+    .name {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0%;
+        color: #4CAF4F;
+        font-family: Inter;
+    }
+
+
+
+    .description {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: #89939E;
+        font-family: Inter;
+        margin-bottom: 28px;
+    }
+
+
+
+
+    .lastLogos {
+        display: flex;
+        align-items: center;
+        gap: 41px;
+        width: 760px
+    }
+
+
+
+    .customers {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0%;
+        color: #4CAF4F;
+        font-family: Inter;
+        display: flex;
+        gap: 12px;
+    }
+
+
+}
+
+
+
+.Block4Part5 {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 81px;
+    margin-bottom: 125px;
+
+
+
+    .caring {
+        font-weight: 600;
+        font-family: Inter;
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: 0%;
+        color: #4D4D4D;
+        margin-bottom: 16px;
+        display: flex;
+        gap: 8px;
+        flex-direction: column;
+        align-items: center;
+
+
+        .caringText {
+            font-weight: 400;
+            font-family: Inter;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0%;
+            color: #717171;
+            width: 628px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+
+
+
+    }
+
+
+
+    .allPics {
+        display: flex;
+        gap: 24px;
+        
+    }
+
+
+
+
+
+
+
+
+
+}
