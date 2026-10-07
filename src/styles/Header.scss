@@ -1,0 +1,29 @@
+$primary-color: #333;
+
+.header-container {
+ background-color: $primary-color;
+ color: white;
+ text-align: center;
+
+
+ .header-title {
+   color: white;
+   font-size: 2rem;
+ }
+}
+
+
+@mixin rounded-corners($radius) {
+ border-radius: $radius;
+}
+
+.card {
+ @include rounded-corners(10px);
+ padding: 20px;
+ background-color: green;
+
+}
+
+
+
+

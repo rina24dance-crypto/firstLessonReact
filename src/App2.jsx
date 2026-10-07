@@ -1,6 +1,6 @@
 import Header2 from "./components/Header2.jsx";
 import Hero from "./components/Hero.jsx";
-import Companies from "./components/Companies.jsx";
+import Companies from "./components/Companies.jsx";            // Одна точка значит путь в той же папке
 import Foreign from "./components/Foreign.jsx";
 import TakeCare from "./components/TakeCare.jsx";
 import Whirl from "./components/Whirl.jsx";
@@ -10,7 +10,7 @@ import Blog from "./components/Blog.jsx";
 import GetStarted from "./components/GetStarted.jsx";
 import NewFooter from "./components/NewFooter.jsx";
 //import HeroContent from "./components/HeroContent.jsx";      // Можно и без hero.jsx но тогда сюда в app2.jsx нужно импортировать heroContent и heroImage /import HeroImage from "./components/HeroImage.jsx";        // Hero нужен для того чтобы App не занимался внутренним устройством Hero
-import "./pages/App2.css";
+import "./pages/App2.scss";
 import "./pages/Companies.css";
 import "./pages/Foreign.css";
 import "./pages/TakeCare.css";
